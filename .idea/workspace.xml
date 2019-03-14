@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b02872b-fb8f-409b-950f-31bc8badfad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/CLD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/CLD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klassestudent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KlasseStudent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klassestudent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,16 +36,108 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="666106695">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Klasse" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2010" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2010" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="238">
                 <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <folding>
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,14 +164,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/CLD.puml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -90,52 +187,48 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="23" />
-    <option name="width" value="1788" />
-    <option name="height" value="1001" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="496" />
+    <option name="y" value="-8" />
+    <option name="width" value="1271" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -143,20 +236,20 @@
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KlasseStudent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1819_2ahitm_sew_sorts" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment18-sort-klassestudent-StarkaLukas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -172,6 +265,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552599430639" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -205,9 +300,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet">
+  <component name="RunManager" selected="Application.Klasse">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Klasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.htl.klassestudent.Klasse" />
+      <module name="klassestudent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.klassestudent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,15 +327,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="KlasseStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klassestudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.klassestudent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.htl.klassestudent" />
+      <option name="MAIN_CLASS_NAME" value="at.htl.klassestudent.KlasseStudentTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="KlasseStudentTest.sortInsertionWithDifferentLastNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klassestudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.klassestudent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.htl.klassestudent" />
+      <option name="MAIN_CLASS_NAME" value="at.htl.klassestudent.KlasseStudentTest" />
+      <option name="METHOD_NAME" value="sortInsertionWithDifferentLastNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KlasseStudentTest.sortInsertionWithEqualLastNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="klassestudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.htl.klassestudent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.htl.klassestudent" />
+      <option name="MAIN_CLASS_NAME" value="at.htl.klassestudent.KlasseStudentTest" />
+      <option name="METHOD_NAME" value="sortInsertionWithEqualLastNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -234,15 +390,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Klasse" />
+      <item itemvalue="JUnit.KlasseStudentTest" />
+      <item itemvalue="JUnit.KlasseStudentTest.sortInsertionWithEqualLastNames" />
+      <item itemvalue="JUnit.KlasseStudentTest.sortInsertionWithDifferentLastNames" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Klasse" />
+        <item itemvalue="JUnit.KlasseStudentTest" />
+        <item itemvalue="JUnit.KlasseStudentTest.sortInsertionWithDifferentLastNames" />
+        <item itemvalue="JUnit.KlasseStudentTest.sortInsertionWithEqualLastNames" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -255,6 +425,8 @@
       <option name="presentableId" value="Default" />
       <updated>1552038227421</updated>
       <workItem from="1552038232268" duration="645000" />
+      <workItem from="1552581152008" duration="4594000" />
+      <workItem from="1552591207937" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="initialization">
       <created>1552038814034</created>
@@ -266,14 +438,46 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 22m 35s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 22m 43s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 23m 48s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 24m 09s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest_sortInsertionWithEqualLastNames - 2019.03.14 at 22h 26m 23s.xml">
+      <configuration name="KlasseStudentTest.sortInsertionWithEqualLastNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 27m 42s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 29m 14s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest_sortInsertionWithDifferentLastNames - 2019.03.14 at 22h 30m 03s.xml">
+      <configuration name="KlasseStudentTest.sortInsertionWithDifferentLastNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest_sortInsertionWithDifferentLastNames - 2019.03.14 at 22h 31m 01s.xml">
+      <configuration name="KlasseStudentTest.sortInsertionWithDifferentLastNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KlasseStudentTest - 2019.03.14 at 22h 32m 52s.xml">
+      <configuration name="KlasseStudentTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645000" />
+    <option name="totallyTimeSpent" value="9428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="23" width="1788" height="1001" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2021764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +485,48 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="SonarQube" />
+      <window_info anchor="bottom" id="Docker" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32814237" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="YouTrack" order="14" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarQube" order="17" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.15347335" />
+      <window_info anchor="right" id="JSF" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Maven" order="12" />
+      <window_info anchor="right" id="PlantUML" order="13" weight="0.3298969" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -298,8 +543,8 @@
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="YouTrack" order="14" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="right" id="PlantUML" weight="0.3298969" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarQube" order="17" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,34 +558,36 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="Maven" order="12" />
-    </layout>
+      <window_info anchor="right" id="PlantUML" order="13" weight="0.3298969" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialization" />
     <option name="LAST_COMMIT_MESSAGE" value="initialization" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -354,27 +601,91 @@
     <entry file="file://$PROJECT_DIR$/images/CLD.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+    <entry file="uml://JAVA/at.htl.klassestudent.Klasse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.klassestudent.Klasse</OriginalElement>
+          <nodes>
+            <node x="" y="">at.htl.klassestudent.Student</node>
+            <node x="" y="">at.htl.klassestudent.Klasse</node>
+            <node x="" y="">java.lang.Comparable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="91.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="238">
             <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#4123#4124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/klassestudent/Klasse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/htl/klassestudent/KlasseStudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
