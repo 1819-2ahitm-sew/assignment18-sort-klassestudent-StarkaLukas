@@ -2,19 +2,30 @@ package at.htl.klassestudent;
 
 
 public class Klasse {
+    private  String klassenbezeichnung;
+    private  static Student[] students;
 
-    //Just an example
-    static Student[] studentsForBubble = {new Student("Lea", "Müller"), new Student("Thomas", "Steiner"), new Student("Peter", "Hinterdorfer"), new Student("Maria", "Bäcker"), new Student("Robert", "Kratky"), new Student("Julia", "Bäcker")};
-    static Student[] studentsForInsertion = studentsForBubble.clone();
-
-
-    public static void main(String[] args) {
-        int klassenbezeichnung;
-
-        sortBubble(studentsForBubble);
-        sortInsertion(studentsForInsertion);
+    public Klasse() {
     }
 
+    public Klasse(String klassenbezeichnung) {
+        this();
+        this.klassenbezeichnung = klassenbezeichnung;
+    }
+
+    public void add(Student student){
+        if(students == null){
+            students = new Student[1];
+        }else {
+            Student[] help = students;
+            students = new Student[help.length + 1];
+            for (int i = 0; i < help.length; i++) {
+                students[i] = help[i];
+            }
+        }
+        students[students.length - 1] = student;
+
+    }
     private static void printArray(Student[] students) {
         for (Student student : students) {
             if(student != null){
@@ -66,13 +77,42 @@ public class Klasse {
                 }
             }
         } while (swapped);
+    }
+    public static void sortBasic(Student[] students){
+        printArray(students);
 
+        for (int i = 0; i < students.length - 1; i++) {
+            for (int j = i; j < students.length; j++) {
+                if (students[j].compareTo(students[i]) < 0) {
+                    Student help = students[i];
+                    students[i] = students[j];
+                    students[j] = help;
+                }
+            }
+        }
+        
     }
 
     private static void swap(Student[] students, int i, int j) {
         Student help = students[i];
         students[i] = students[j];
         students[j] = help;
+    }
+
+    public String getKlassenbezeichnung() {
+        return klassenbezeichnung;
+    }
+
+    public void setKlassenbezeichnung(String klassenbezeichnung) {
+        this.klassenbezeichnung = klassenbezeichnung;
+    }
+
+    public Student[] getStudents() {
+        return students;
+    }
+
+    public void setStudents(Student[] students) {
+        this.students = students;
     }
 
 }
